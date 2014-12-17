@@ -1,0 +1,20 @@
+module ietf-rsvp {
+
+    namespace "urn:ietf:params:xml:ns:yang:rsvp";
+
+    /* Replace with IANA when assigned */
+    prefix "rsvp";
+
+    import ietf-inet-types { prefix inet; }
+
+    organization "TBA";
+
+    contact "TBA";
+
+    description
+        "This module contains the RSVP YANG data model.";
+
+    revision 2014-12-17 {
+        description "Initial revision.";
+    }
+}
